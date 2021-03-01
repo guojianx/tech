@@ -155,6 +155,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/state/sidebar</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -171,6 +173,8 @@ Error message and password prompt
 
 <li>$:/temp/NewTagName--2108206929</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
@@ -178,6 +182,8 @@ Error message and password prompt
 <li>ABC Test</li>
 
 <li>TableOfContents</li>
+
+<li>task</li>
 
 <li>ToDo List</li>
 
@@ -9588,6 +9594,9 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20210301021345636" modified="20210301021345636" title="$:/state/sidebar">
+<pre>no</pre>
+</div>
 <div created="20210301015757544" modified="20210301015810464" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
@@ -9666,6 +9675,9 @@ Error message and password prompt
 </div>
 <div created="20210301021019177" modified="20210301021023858" title="$:/temp/NewTagName--2108206929">
 <pre>ToDo</pre>
+</div>
+<div created="20210301021145912" modified="20210301021148786" title="$:/temp/search">
+<pre>l</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.22">
 <pre>{
@@ -9786,12 +9798,16 @@ Error message and password prompt
 
 &lt;/div&gt;</pre>
 </div>
-<div created="20210301020251224" modified="20210301020332383" tags="TableOfContents" title="ToDo List">
+<div created="20210301021050237" list="[[ABC Test]] [[WebRTC &amp; RTP Protocol]]" modified="20210301021050237" title="task">
+<pre></pre>
+</div>
+<div created="20210301020251224" modified="20210301021442043" tags="TableOfContents" title="ToDo List">
 <pre>! Outstanding tasks
 
 //Drag the tasks to re-order them//
 
-&lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
+&lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot;
+itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
 
 ! Completed tasks
 
@@ -9801,7 +9817,9 @@ Error message and password prompt
 &lt;div&gt;
 &lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link/&gt;~~&lt;/$checkbox&gt;
 &lt;/div&gt;
-&lt;/$list&gt;</pre>
+&lt;/$list&gt;
+
+</pre>
 </div>
 <div created="20210301020345590" modified="20210301020436413" tags="task" title="WebRTC &amp; RTP Protocol">
 <pre></pre>
